@@ -1,0 +1,14 @@
+<!-- Laysidaysi favicon (a copy of the app icon), in the app's editorial style: a light grey macOS tile with a thin line,
+     black square brackets (like the active "[Today]" in the top bar) around one mint square,
+     the focus block. Used as is by browsers. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect x="100" y="100" width="824" height="824" rx="185" fill="#FAFAFA" stroke="#E5E5E5" stroke-width="4" filter="url(#shadow)"/>
+  <path d="M378 318 H298 V706 H378" fill="none" stroke="#111111" stroke-width="48" stroke-linecap="square"/>
+  <path d="M646 318 H726 V706 H646" fill="none" stroke="#111111" stroke-width="48" stroke-linecap="square"/>
+  <rect x="422" y="422" width="180" height="180" fill="#2DBEAA"/>
+</svg>
